@@ -66,6 +66,13 @@ html {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* vertically aligned on mobile */
+  }
 }
 
 .no-gutters {
